@@ -28,7 +28,9 @@ const Bai2 = () => {
         backgroundColor={'transparent'}
       />
 
-      <Text style={{ fontWeight: '900', fontSize: 20 , color: 'black'}}>Keo de load</Text>
+      <Text style={{fontWeight: '900', fontSize: 20, color: 'black'}}>
+        Keo de load
+      </Text>
     </ScrollView>
   );
 };
@@ -38,7 +40,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#c0eaff',
     justifyContent: 'center',
     alignItems: 'center',
-    flex: 1
+    flex: 1,
   },
 });
 

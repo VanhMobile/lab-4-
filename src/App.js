@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import {Pressable, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import Bai1 from './screens/bai1';
@@ -36,7 +37,7 @@ const App = () => {
           headerShown: true,
           animationEnabled: true,
         }}>
-        <Stack.Screen name="PH31491" component={Menu} />
+        <Stack.Screen name="PH35035" component={Menu} />
         <Stack.Screen name="Bai 1" component={Bai1} />
         <Stack.Screen name="Bai 2" component={Bai2} />
         <Stack.Screen name="Bai 3" component={Bai3} />
